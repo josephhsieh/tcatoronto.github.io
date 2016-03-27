@@ -1,0 +1,73 @@
+table.main-table {
+	width: 100%;
+}
+
+table.main-table tr td:first-child {
+	text-align: right;
+	width: 10%;
+}
+
+table.main-table tr td:nth-child(2) {
+	text-align: left;
+	width: 90%;
+}
+
+a {
+	-moz-transition: color 0.35s ease-in-out, color 0.35s ease-in-out;
+	-webkit-transition: color 0.35s ease-in-out, color 0.35s ease-in-out;
+	-o-transition: color 0.35s ease-in-out, color 0.35s ease-in-out;
+	-ms-transition: color 0.35s ease-in-out, color 0.35s ease-in-out;
+	transition: color 0.35s ease-in-out, color 0.35s ease-in-out;	
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+a.prez-msg {
+	text-decoration: underline !important;
+}
+
+a:hover .fa-facebook {
+	color: rgb(71,98,156);
+}
+
+a:hover .fa-ticket {
+	color: rgb(211,151,68);
+}
+
+a:hover .fa-youtube {
+	color: rgb(223,40,38);
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-width: 1px;
+	line-height: 18px;
+	margin: 0 0 22px 0;
+	text-align: left;
+	padding: 0 5px;
+	border: 1px solid #f1f1f1;	
+}
+
+table tr {
+	border-bottom: 1px solid #f5f5f5;
+}
+
+table tr td {
+	padding: 5px 10px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.tcat-logo {
+	width: 152px;
+	vertical-align: middle;
+}
+.tcat-logo.small {
+	width: 40px;
+}
+.partner-photo {
+	width: 300px;
+}
